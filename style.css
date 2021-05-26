@@ -293,6 +293,7 @@ a:hover {
 }
 
 .navbar-brand {
+    display: inline-flex;
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
@@ -326,6 +327,10 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+}
+
+.nav > li > a {
+    font-weight: bold;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -686,7 +691,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Open Sans";
 }
 
@@ -741,6 +746,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -775,7 +781,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f4a261!important;
 }
 
 .btn-atomic-tangerine {
